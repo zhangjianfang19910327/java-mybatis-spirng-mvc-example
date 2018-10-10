@@ -12,4 +12,4 @@
 # spring事务
 使用的是`org.springframework.jdbc.datasource.DataSourceTransactionManager`  
 # 数据库连接池
-使用的是jdbc
+使用的是dbcp
