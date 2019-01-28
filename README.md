@@ -13,3 +13,6 @@
 使用的是`org.springframework.jdbc.datasource.DataSourceTransactionManager`  
 # 数据库连接池
 使用的是dbcp
+# 遇到的问题
+如果ajax请求格式contenttype不填写的话默认需要用一个实体类来接受传到后台的参数  如果想用.request.getparameter()方法的话
+需要将contenttype设置为application/x-www-form-urlencoded
